@@ -70,7 +70,7 @@ it('successful Signin',()=>{
     cy.get("#ulb i").click();
     cy.get('input[formcontrolname="email"]').type(Cypress.env('code'));
     cy.get('input[formcontrolname="password"]').type(Cypress.env('password'));
-    cy.get("button[type='submit']").click();
+    cy.get("button[typ
 })
 
   
@@ -316,3 +316,4 @@ it("error message displayed when PDF upload field is left blank",()=>{
 
 
 })
+
